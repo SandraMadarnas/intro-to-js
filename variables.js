@@ -1,10 +1,10 @@
-// LAS FUNCIONES SON CONTENEDORES DE VALORES
+// LAS VARIABLES SON CONTENEDORES DE VALORES
 // 1. Debemos definirlas para poder utilizarlas.
 // 2. A continuación, podemos asignarles un valor
 
 // var example;
 // example = 'Hello, world!';
-// console.log(example);
+// console.log(example); // Hello, world!
 
 // IMPORTANTE:
 // DEBEMOS DEFINIR Y ASIGNAR VALOR A LA VEZ:
