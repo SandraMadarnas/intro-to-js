@@ -13,18 +13,18 @@
 
 // const hello = 'Hello';
 // const world = 'World';
-// const fullString = '' // A COMPLETAR POR LOS ESTUDIANTES
+// const fullString = hello + ' ' + world  // A COMPLETAR POR LOS ESTUDIANTES
 // console.log(fullString);
 
 // Podemos concatenar strings con el operador +
 
 // const hello = 'Hello';
 // const world = 'World';
-// const fullString = '' // A COMPLETAR POR LOS ESTUDIANTES
+// const fullString = '' // A COMPLETAR POR LOS ESTUDIANTES   
 // console.log(fullString);
 
 // Además, las strings tienen una propiedad length...
-
+// const leaveThisUncommented = '   This is an Example String. Use your methods here   ';
 // console.log(leaveThisUncommented.length);
 
 // ...que nos permite utilizarlas como arrays
@@ -36,27 +36,55 @@
 
 // Por último, podemos utilizar los métodos nativos de JavaScript
 
+// EJERCICIOS CON MÉTODOS
 // const leaveThisUncommented = '   This is an Example String. Use your methods here   ';
 
-// EJERCICIOS CON MÉTODOS
+// // 1.- Imprime leaveThisUncommented todo en minúsculas
+// const minusculas = leaveThisUncommented.toLowerCase();
+// console.log(minusculas);
 
-// 1.- Imprime leaveThisUncommented todo en minúsculas
 
-// 2.- Imprime leaveThisUncommented todo en mayúsculas
+// // 2.- Imprime leaveThisUncommented todo en mayúsculas
+// const mayusculas = leaveThisUncommented.toUpperCase();
+// console.log(mayusculas);
 
-// 3.- Quita los espacios iniciales y finales de leaveThisUncommented
 
-// 4.- Determina si leaveThisUncommented incluye la palabra 'stop'
+// // 3.- Quita los espacios iniciales y finales de leaveThisUncommented
+// const sinEspacios = leaveThisUncommented.trim();  //Espacios delante y detrás
+// console.log(sinEspacios);
 
-// 5.- Determina si leaveThisUncommented termina con la palabra 'here'
 
-// 6.- Sustituye todas las "e" de leaveThisUncommented por "a"
+// // 4.- Determina si leaveThisUncommented incluye la palabra 'stop'
+// const stop = leaveThisUncommented.includes('stop');
+// console.log(stop);
 
-// 7.- Encuentra en qué posición de leaveThisUncommented se encuentra la palabra "Use"
 
-// 8.- Divide leaveThisUncommented por el punto
+// // 5.- Determina si leaveThisUncommented termina con la palabra 'here'
+// // const finish = leaveThisUncommented.trim().includes('here',leaveThisUncommented.length -5);
+// const finish = leaveThisUncommented.trim().endsWith('here');
+// console.log(finish);
+
+
+// // 6.- Sustituye todas las "e" de leaveThisUncommented por "a"
+// // const sustituyePorA = leaveThisUncommented.replace('e','a')  //Solo cambia la primera
+// const sustituyePorA = leaveThisUncommented.toLocaleLowerCase().replaceAll('e','a')   //Reemplaza todas las e por as
+// console.log(sustituyePorA);
+
+
+// // 7.- Encuentra en qué posición de leaveThisUncommented se encuentra la palabra "Use"
+// const searchUse = leaveThisUncommented.search('Use');
+// console.log(searchUse);
+
+
+// 8.- Divide leaveThisUncommented por el punto split . espacio
+
+
 
 // 9.- Obtén el fragmento de leaveThisUncommented que va desde el índice 30 hasta el final
+// const fromIndex = leaveThisUncommented.slice(30);
+// console.log(fromIndex);
 
-// 10.- Obtén el fragmento de leaveThisUncommented que va desde el índice 30 hasta el 46
 
+// // 10.- Obtén el fragmento de leaveThisUncommented que va desde el índice 30 hasta el 46
+// const abcIndex = leaveThisUncommented.slice(30,46);
+// console.log(abcIndex);

@@ -3,11 +3,48 @@
 // Como las variables, lo primero que hacemos es declararlas,
 // para almacenarlas en la memoria. Luego podemos ejecutarlas
 
-// function exampleFunction() {
-//     console.log('Hello, world!');
+// const word = "Hello!";
+
+// const greet = function () {
+//     const word = "Goodbye!";
+//     console.log(word);
 // }
 
+// function exampleFunction() {
+//     const word = "Goodbye!";
+//     console.log(word);
+// }
+
+// function exampleFunction2() {
+//     return "Hellooo";
+// }
+
+// greet();
 // exampleFunction();
+// console.log(exampleFunction2());
+// console.log(word);
+
+// console.log(typeof exampleFunction2);  //Funcion
+// console.log(typeof exampleFunction2());  //String
+
+// function exampleFunction3(firstWord, secondWord) {
+//         console.log(firstWord + ' ' + secondWord);
+//     }
+//     exampleFunction3("hello","word");
+
+// const addTwoNumbers = (firstNumber, secondNumber) => {
+//     const result = firstNumber + secondNumber;
+//     return result;
+// }
+// console.log(addTwoNumbers(2,5));
+
+
+// const printAWord = word => console.log(word);
+// printAWord('!!!!!!!');
+
+// const addTwo = number => number + 2;
+// addTwo(5);
+// Hacer el console.log
 
 // A nuestras funciones les podemos pasar argumentos. Se trata de
 // variables que utilizaremos dentro de la propia función
@@ -25,11 +62,20 @@
 
 // 1. Escribe una función que imprima la suma de dos números
 // proporcionados como parámetros
+// const sumaNumeros = (num1,num2) => console.log(num1 + num2);
+// sumaNumeros (3,5);
+
 
 // 2. Escribe una función que imprima un número aleatorio, de 1
 // hasta el rango proporcionado
 
-// ---
+// const aleatorio = rangoAleatorio => {
+//     const numeroAleatorio = Math.random()*rangoAleatorio;
+//     const numeroEntero = Math.floor(numeroAleatorio);
+//     console.log(numeroEntero);
+
+// }
+// aleatorio(77);
 
 // Las funciones pueden utilizar la keyword return, que:
 // 1. Les asigna un valor de retorno
@@ -47,6 +93,15 @@
 
 // 1. Retomando la función que genera números aleatorios, haz que retorne
 // el resultado, no que lo imprima en consola
+
+// const aleatorio = rangoAleatorio => {
+//         const numeroAleatorio = Math.random()*rangoAleatorio;
+//         const numeroEntero = Math.floor(numeroAleatorio);
+//         return numeroEntero;
+    
+//     }
+//     console.log(aleatorio(77));
+
 
 // IMPORTANTE
 // 1. Debemos tratar de que nuestras funciones solo cumplan un cometido

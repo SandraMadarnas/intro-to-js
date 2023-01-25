@@ -41,20 +41,48 @@
 
 // const leaveThisUncommented = 156.34589;
 
-// 1. Cambia el tipo de leaveThisUncommented a string
+// // 1. Cambia el tipo de leaveThisUncommented a string
+// const str = leaveThisUncommented.toString();
+// console.log(str);
 
-// 1. Redondea leaveThisUncommented a dos decimales
 
-// 3. Determina si leaveThisUncommented es un número entero
+// // 2. Redondeasin usar (Math.floor que solo redondea) leaveThisUncommented a dos decimales
+// const redondeo = leaveThisUncommented.toFixed(2);
+// console.log(redondeo);
 
-// 4. Determina si leaveThisUncommented es NaN
 
-// 5. Castea leaveThisUncommented a número entero
+// // 3. Determina si leaveThisUncommented es un número entero
+// const entero = Number.isInteger(leaveThisUncommented);
+// console.log(entero);
 
-// 6. Imprime el número PI
 
-// 7. Redondea leaveThisUncommented al número entero superior más cercano
+// // 4. Determina si leaveThisUncommented es NaN
+// const noNumero = Number.isNaN(leaveThisUncommented);
+// console.log(noNumero);
 
-// 8. Redondea leaveThisUncommented al número entero inferior más cercano
+// // 5. Castea leaveThisUncommented a número entero
+// const CasteoEntero = parseInt(leaveThisUncommented);
+// console.log(CasteoEntero);
 
-// 9. Genera un número entero aleatorio del 1 al 3
+
+// // 6. Imprime el número PI
+// const numeroPi= Math.PI;
+// console.log(numeroPi);
+
+
+// // 7. Redondea leaveThisUncommented al número entero superior más cercano
+// const enteroSuperior = Math.ceil(leaveThisUncommented);  //Redondea hacia arriba
+// console.log(enteroSuperior);
+
+
+// // 8. Redondea leaveThisUncommented al número entero inferior más cercano
+// const enteroInferior = Math.floor(leaveThisUncommented);
+// console.log(enteroInferior);
+
+
+// // 9. Genera un número entero aleatorio del 1 al 3
+// // const aleatorio = Math.floor(Math.random() * 3);
+// const aleatorio = Math.random() * 3;
+// // const ent = Math.ceil(aleatorio); // No sirve porque toma el 0 el ceil
+// const ent = Math.floor(aleatorio) + 1;
+// console.log(ent);
