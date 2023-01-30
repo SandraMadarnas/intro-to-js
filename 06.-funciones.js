@@ -20,9 +20,9 @@
 // exampleFunction('hello', 'world');
 
 
-const addTwo = number => {
-    return number + 2;
-};
+// const addTwo = number => {
+//     return number + 2;
+// };
 
 
 
@@ -151,7 +151,7 @@ const addTwo = number => {
 // 4. Debemos tener mucho cuidado con el nombre de nuestras funciones
 
 
-const print = (word) => console.log(word);
+// const print = (word) => console.log(word);
 
 
 // Podemos utilizar funciones sin nombre. Las llamaremos funciones anónimas.
@@ -159,7 +159,7 @@ const print = (word) => console.log(word);
 // const exampleFunction = function () {
 //     console.log('Anonymous function!');
 // }
- 
+
 // exampleFunction();
 
 // Existe una sintaxis especial desde EC6: las arrow functions
@@ -167,7 +167,7 @@ const print = (word) => console.log(word);
 // const exampleFunction = () => {
 //     console.log('Anonymous function!');
 // }
- 
+
 // exampleFunction();
 
 // EJERCICIOS
@@ -175,12 +175,45 @@ const print = (word) => console.log(word);
 // 1. Escribe una arrow function que imprima en la consola el parámetro
 // que le proporciones
 
+// const printParameter = parameter => {
+//         console.log(parameter);
+//     };
+// printParameter("Hola");
+
+
 // 2. Escribe una arrow function que sume dos números proporcionados
+
+// const sumTwoNumbers = (number1, number2) => {
+//     resultado = number1 + number2;
+// };
+// sumTwoNumbers(2, 5);
+// console.log(resultado);
+
 
 // 3. Escribe una arrow function que imprima en la consola la multiplicación
 // de dos números proporcionados
 
+// const multiply = (number1, number2) => {
+//     const resultado = number1 * number2;
+//     printParameter(resultado);
+//     return resultado;
+// };
+
+// const resultado = multiply(2, 5);
+// const resultado2 = multiply(7, 4);
+// // console.log(resultado);
+
+
+// const multiply2 = (number1, number2) => number1 * number2;
+// printParameter(multiply2(2,3));
+
 // 4. Escribe una arrow function que reste dos números proporcionados
+
+// const restaTwoNumbers = (number1, number2) => {
+    //     resultado = number1 - number2;
+    // };
+    // sumTwoNumbers(2, 5);
+    // console.log(resultado);
 
 // 5. Escribe una arrow function que multiplique dos números proporcionados
 
@@ -188,3 +221,18 @@ const print = (word) => console.log(word);
 
 // 7. Escribe una arrow function que reciba dos números y una operación,
 // ejecute la operación e imprima el resultado en pantalla
+
+
+
+// const sumTwoNumbers = (number1, number2) => {
+//     resultado = number1 + number2;
+// };
+// sumTwoNumbers(2, 5);
+// console.log(resultado);
+
+
+// const ej7 = (number1, number2, opera) => {
+//     resultado = opera(number1 + number2) ;
+// };
+
+// console.log(2,5,resta()); ARREGLAR

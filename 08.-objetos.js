@@ -13,10 +13,14 @@ const exampleObject = {
     ]
 }
 
+const unknownKey = 'age';
+console.log(exampleObject.name);
+console.log(exampleObject[unknownKey]);
+
 // Los inicializamos utilizando llaves. Dentro de ellas podemos
 // guardar funciones (métodos) u otro tipo de datos (propiedades).
 // A continuación podemos acceder mediante tres notaciones distintas:
 
 console.log(exampleObject.name);
-console.log(exampleObject?.age);
+// console.log(exampleObject?.age);
 console.log(exampleObject['owners']);
